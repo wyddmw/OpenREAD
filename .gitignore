@@ -171,3 +171,4 @@ counterfactual_results/
 counter_only/
 lingoqa_grpo/
 nuscenes_traj_eval_results/
+ckpt/
