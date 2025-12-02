@@ -1,14 +1,13 @@
 <div align="center">
 
 <h1>
-OpenREAD: Reinforced Open-Ended Reasoing for End-to-End Autonomous Driving with LLM-as-Critic
+OpenREAD: Reinforced Open-Ended Reasoning for End-to-End Autonomous Driving with LLM-as-Critic
 </h1>
 
 <p align="center">
 <!-- <a href=https://arxiv.org/abs/2412.09951><img src="https://img.shields.io/badge/ArXiv-2412.09951-%23840707.svg" alt="ArXiv"></a> -->
 
-<!-- [![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2412.09951) -->
-
+[![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2512.01830)
 [![🤗 HuggingFace models](https://img.shields.io/badge/HuggingFace🤗-Models-orange)](https://huggingface.co/wyddmw/OpenREAD/tree/main)
 [![🤗 HuggingFace datasets](https://img.shields.io/badge/HuggingFace🤗-Datasets-orange)](https://huggingface.co/datasets/wyddmw/OpenREAD)
 
@@ -30,7 +29,7 @@ An overview of the framework of our OpenREAD.
 <image src="./asset/lingoqa.png"/>
 
 
-An overview of the capability of our proposed OpenREAD, a vision-language model tailored for autonomous driving by reinforment learning with GRPO. Besides the trajectory planning, our OpenREAD is also capable of providing reasoning-enhanced response for open-ended scenario understanding, action analysis, *etc*.
+An overview of the capability of our proposed OpenREAD, a vision-language model tailored for autonomous driving by reinforcement learning with GRPO. Besides the trajectory planning, our OpenREAD is also capable of providing reasoning-enhanced response for open-ended scenario understanding, action analysis, *etc*.
 
 ## 🦙 Data & Model Zoo
 Our OpenREAD is built upon the [Qwen3-VL-8B](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) and finetuned on a mixture of datasets including LingoQA, OmniDrive, and NuScenes datasets. Our OpenREAD is now available at [huggingface](https://huggingface.co/wyddmw/WiseAD). Enjoy playing with it!
