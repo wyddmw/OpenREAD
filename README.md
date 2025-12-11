@@ -125,8 +125,27 @@ python eval/Trajectory/eval_trajs.py
 
 ## Acknowledgment
 
-We appeciate the awesome open-source project of [ms-swift](https://github.com/modelscope/ms-swift), [OmniDrive](https://github.com/NVlabs/OmniDrive), and [GPT-Driver](https://github.com/PointsCoder/GPT-Driver).
+We appreciate the awesome open-source project of [ms-swift](https://github.com/modelscope/ms-swift), [OmniDrive](https://github.com/NVlabs/OmniDrive), and [GPT-Driver](https://github.com/PointsCoder/GPT-Driver).
 
 
 ## ✏️ Citation
-Coming soon.
+
+If you find OpenREAD is useful in your research or applications, please consider giving a star ⭐ and citing it with the following BibTeX:
+
+```
+@article{zhang2025openread,
+  title={OpenREAD: Reinforced Open-Ended Reasoing for End-to-End Autonomous Driving with LLM-as-Critic},
+  author={Zhang, Songyan and Huang, Wenhui and Chen, Zhan and Collister, Chua Jiahao and Huang, Qihang and Lv, Chen},
+  journal={arXiv preprint arXiv:2512.01830},
+  year={2025}
+}
+```
+
+```
+@article{zhang2024wisead,
+  title={WiseAD: Knowledge Augmented End-to-End Autonomous Driving with Vision-Language Model},
+  author={Zhang, Songyan and Huang, Wenhui and Gao, Zihui and Chen, Hao and Lv, Chen},
+  journal={arXiv preprint arXiv:2412.09951},
+  year={2024}
+}
+```
