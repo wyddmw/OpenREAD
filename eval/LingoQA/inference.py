@@ -224,7 +224,6 @@ def EvalLingoQA(args):
                     'answer_gt': f'{answer_gt.strip()}',
                 }
             )
-        break
     df = pd.DataFrame(result)
     # compute the evaluation metrics
     LingoQA_parquet = os.path.join(args.LINGOQA_DATA_PATH, 'evaluation/val.parquet')
